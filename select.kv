@@ -1,0 +1,50 @@
+MDScreen:
+    MDFloatLayout:
+        ScrollView:
+            size_hint_y: .77
+            pos_hint: {"x": 0, "y": .116}
+            do_scroll_x: False
+            do_scroll_y: True
+            BoxLayout:
+                orientation:"vertical"
+                size:(root.width,root.height)
+                height:self.minimum_height
+                size_hint:None,None
+                pso_hint:{"top":10}
+                cols:1
+                spacing:5
+                MDRaisedButton:
+                    text:"Pushpa Raj!!"
+                    row:7
+                    cols:1
+                    on_release:app.watch("https://ghanshu-12.github.io/WatchMovies/pr.html")
+                MDRaisedButton:
+                    text:"RRR"
+                    row:1
+                    cols:1
+                    on_release:app.watch("https://ghanshu-12.github.io/WatchMovies/rrr.html")
+                MDRaisedButton:
+                    text:"Pathaan"
+                    row:2
+                    cols:1
+                    on_release:app.watch("https://ghanshu-12.github.io/WatchMovies/pathaan.html")
+                MDRaisedButton:
+                    text:"Brahmastra"
+                    row:3
+                    cols:1
+                    on_release:app.watch("https://ghanshu-12.github.io/WatchMovies/brahmastra.html")
+                MDRaisedButton:
+                    text:"Vikram"
+                    row:6
+                    cols:1
+                    on_release:app.watch("https://ghanshu-12.github.io/WatchMovies/vr.html")
+                MDRaisedButton:
+                    text:"Dangal"
+                    row:4
+                    cols:1
+                    on_release:app.watch("https://ghanshu-12.github.io/WatchMovies/dl.html")
+                MDRaisedButton:
+                    text:"Kantra"
+                    row:5
+                    cols:1
+                    on_release:app.watch("https://ghanshu-12.github.io/WatchMovies/k.html")
